@@ -1,9 +1,4 @@
 /*global Ember, DS, Todos:true */
 window.Todos = Ember.Application.create();
 
-//Todos.ApplicationAdapter = DS.LSAdapter.extend({
-//	namespace: 'todos-emberjs'
-//});
-//
-//Todos.ApplicationAdapter = DS.FixtureAdapter.extend();
-Todos.ApplicationAdapter = DS.LSAdapter.extend({namespace: 'todos-emberjs'}) || DS.FixtureAdapter.extend();
+Todos.ApplicationAdapter = DS.FixtureAdapter.extend();

@@ -13,12 +13,12 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'bower_components/handlebars/handlebars.js',
       'bower_components/jquery/dist/jquery.js',
+      'bower_components/handlebars/handlebars.js',
       'bower_components/ember/ember.js',
       'bower_components/ember-data/ember-data.js',
       'bower_components/ember-localstorage-adapter/localstorage_adapter.js',
-      'js/app.js',
+      'js/**/*.js',
       'tests/*.js'
     ],
 

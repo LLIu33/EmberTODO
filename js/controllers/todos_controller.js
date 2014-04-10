@@ -25,7 +25,7 @@
 
         // Clear the "New Todo" text field
         this.set('newTitle', '');
-      },
+      }
     },
 
     /* properties */
